@@ -1,0 +1,32 @@
+:root {
+    --background-color: #EEEEEE;
+    --bg-panel: #FFFFFF;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --background-color: #111111;
+        --bg-panel: #262626;
+    }
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--background-color);
+}
+
+header {
+    width: 100%;
+    background-color: var(--bg-panel);
+}
+
+.panel {
+    max-width: 1440px;
+    height: 60px;
+}
